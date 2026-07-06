@@ -1,6 +1,6 @@
 cask "meetsnap" do
   version "1.0"
-  sha256 "cd607e9340e7bcdfda98f8573a001b3b46b5336e4ca26ae6688d582a09343be8"
+  sha256 "d9ac5eea545c0ce7055c62d828fb63defa94f531bfa5e9d9c8f8cca9ecb0de94"
 
   url "https://github.com/DaoDaoNoCode/MeetSnap/releases/download/v#{version}/MeetSnap-#{version}.zip"
   name "MeetSnap"
