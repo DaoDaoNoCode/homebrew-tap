@@ -8,13 +8,13 @@ class Meetsnap < Formula
   depends_on macos: :ventura
 
   def install
-    system "swift", "build", "-c", "release", "--disable-sandbox"
+    system "swift", "build", "--disable-sandbox"
 
     app_dir = prefix/"MeetSnap.app/Contents"
     (app_dir/"MacOS").mkpath
     (app_dir/"Resources").mkpath
 
-    cp ".build/release/MeetSnap", app_dir/"MacOS/MeetSnap"
+    cp ".build/debug/MeetSnap", app_dir/"MacOS/MeetSnap"
     cp "Resources/Info.plist", app_dir/"Info.plist"
 
     system "swift", "generate_icon.swift", buildpath.to_s
