@@ -6,11 +6,11 @@ Homebrew formulae for my projects.
 
 ```
 brew tap DaoDaoNoCode/tap
-brew install --cask meetsnap
+brew install meetsnap
 ```
 
-## Available Casks
+## Available Formulae
 
-| Cask | Description |
+| Formula | Description |
 |---|---|
 | `meetsnap` | One-click menu bar app to switch back to your active Google Meet tab |
