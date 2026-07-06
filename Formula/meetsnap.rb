@@ -2,7 +2,7 @@ class Meetsnap < Formula
   desc "One-click menu bar app to switch back to your active Google Meet tab"
   homepage "https://github.com/DaoDaoNoCode/MeetSnap"
   url "https://github.com/DaoDaoNoCode/MeetSnap/archive/refs/tags/v1.0.tar.gz"
-  sha256 :no_check
+  sha256 "77356e4cc885a6b6a491822e247be2cc5e8dc2e0141237f0cf0fb9c8bf6ab739"
   license "MIT"
 
   depends_on macos: :ventura
