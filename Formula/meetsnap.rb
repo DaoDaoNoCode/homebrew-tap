@@ -35,16 +35,13 @@ class Meetsnap < Formula
     end
   end
 
-  def post_install
-    ln_sf prefix/"MeetSnap.app", "/Applications/MeetSnap.app"
-  end
-
   def caveats
     <<~EOS
-      MeetSnap.app has been linked to /Applications.
-      Open it from Applications or Spotlight to start.
+      To add MeetSnap to Applications, run:
+        ln -sf #{prefix}/MeetSnap.app /Applications/MeetSnap.app
 
-      To unlink: rm /Applications/MeetSnap.app
+      To remove:
+        rm /Applications/MeetSnap.app
     EOS
   end
 
