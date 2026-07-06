@@ -38,10 +38,10 @@ class Meetsnap < Formula
   def caveats
     <<~EOS
       To add MeetSnap to Applications, run:
-        ln -sf #{prefix}/MeetSnap.app /Applications/MeetSnap.app
+        cp -R #{prefix}/MeetSnap.app /Applications/MeetSnap.app
 
       To remove:
-        rm /Applications/MeetSnap.app
+        rm -rf /Applications/MeetSnap.app
     EOS
   end
 
