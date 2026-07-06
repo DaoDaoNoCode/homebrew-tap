@@ -6,6 +6,7 @@ Homebrew formulae for my projects.
 
 ```
 brew tap DaoDaoNoCode/tap
+brew trust daodaonocode/tap
 brew install meetsnap
 ```
 
